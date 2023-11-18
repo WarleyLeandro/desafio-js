@@ -35,21 +35,21 @@ Exemplos:
 
 ## Como Testar
 
-Você pode testar a função somarorio chamando-a com diferentes valores de entrada. No arquivo main.js, você encontrará chamadas de exemplo:
+Você pode testar a função somatorio chamando-a com diferentes valores de entrada. No arquivo main.js, você encontrará chamadas de exemplo:
 
-somarorio(-1);
-somarorio(6);
-somarorio(10);
-somarorio(11);
+- somatorio(-1);
+- somatorio(6);
+- somatorio(10);
+- somatorio(11);
 
 Observe que a primeira chamada apresenta uma regra inválida, pois o valor passado como parâmetro, "-1", não se enquadra como um número inteiro positivo. Portanto, a função deve lidar com essa exceção e fornecer um retorno para o usuário.
 
 ### Funções e seus retornos:
 
-somarorio(-1) -> Insira um número inteiro positivo!
-somarorio(6) -> O somatório dos números divisíveis por 3 ou 5 é: 8
-somarorio(10) -> O somatório dos números divisíveis por 3 ou 5 é: 23
-somarorio(11) -> O somatório dos números divisíveis por 3 ou 5 é: 33
+- somatorio(-1) -> Insira um número inteiro positivo!
+- somatorio(6)  -> O somatório dos números divisíveis por 3 ou 5 é: 8
+- somatorio(10) -> O somatório dos números divisíveis por 3 ou 5 é: 23
+- somatorio(11) -> O somatório dos números divisíveis por 3 ou 5 é: 33
 
 ### Sua vez!
 
